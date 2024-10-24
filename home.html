@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keyboard</title>
+
+  <!-- style article -->
+  <style>
+
+    body {
+      background-color: #233a66;
+      color: #fff;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+
+    .header {
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+    }
+ 
+    .nav {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      margin: 0 10px;
+      background-color: #ffd691;
+      padding: 10px;
+      border-radius: 20px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .section {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      margin: 20px;
+      border: 2px solid #d7a859;
+    }
+
+    .article {
+      flex-basis: 70%;
+      padding: 5px;
+    }
+
+    ol {
+      margin-top: 10px;
+    }
+
+    .aside {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2px;
+        margin: 20px;
+        border: 2px solid #d7a859;
+    }
+
+    .aside h1 {
+        margin-bottom: 10px;
+    }
+
+    img {
+      width: 200px;
+      height: 120px;
+    }
+
+    .aside img {
+      margin: 10px 0 10px 0;
+      height: 120px;
+      margin: 10px 0;
+      border: 1px solid #333;
+    }
+
+    footer {
+      color: #aaa;
+      padding: 30px 0;
+    }
+
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-links a {
+      color: #aaa;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    .footer-links a:hover {
+      color: #d7a859;
+    }
+
+    .footer-copyright {
+      font-size: 14px;
+    }
+
+    /* responsive media website */
+    @media (min-width: 768px) {
+      .content {
+        flex-direction: row;
+      }
+      .section {
+        flex: 3;
+      }
+      .aside {
+        flex: 1;
+      }
+    }
+  </style>
+  <!-- end -->
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Keyboard Gallery</h1>
+    </header>
+    <nav class="nav">
+      <a href="home.html">Home</a>
+      <a href="#">Article</a>
+      <a href="#">Gallery</a>
+    </nav>
+    <div class="content">
+      <section class="section">
+        <h1>Article</h1>
+        <div class="article">
+          <h2>Keyboard Standar</h2>
+          <p>Keyboard standar adalah alat yang esensial dalam penggunaan komputer. Dengan berbagai jenis dan fitur, pengguna dapat memilih keyboard yang sesuai dengan kebutuhan mereka. Memahami komponen dan fungsi keyboard dapat meningkatkan efisiensi dan kenyamanan saat bekerja atau bermain.</p>
+
+          <ul>
+            <h3>Jenis-jenis keyboard standar</h3>
+            <!-- isi jenis jenis -->
+            <ol>
+              <strong>1. Keyboard Wired</strong>
+              <ul>
+                <li>Terhubung melalui kabel USB.</li>
+                <li>Stabil dan tidak memerlukan pengisian daya.</li>
+              </ul>
+            </ol>
+            
+            <ol>
+              <strong>2. Keyboard Wireless</strong>
+              <ul>
+                <li>Menggunakan teknologi Bluetooth atau RF.</li>
+                <li>Memberikan kebebasan bergerak tanpa kabel.</li>
+              </ul>
+            </ol>
+
+            <ol>
+              <strong>3. Keyboard Ergonomis</strong>
+              <ul>
+                <li>Dirancang untuk mengurangi ketegangan pada pergelangan tangan.</li>
+                <li>Memiliki bentuk yang lebih natural sesuai dengan posisi tangan.</li>
+              </ul>
+            </ol>
+
+            <ol>
+              <strong>4. Keyboard Gaming</strong>
+              <ul>
+                <li>Dikenal dengan fitur tambahan seperti pencahayaan RGB dan tombol makro.</li>
+                <li>Dirancang untuk meningkatkan pengalaman bermain game.</li>
+              </ul>
+            </ol>
+            <!-- end jenis-jenis -->
+          </ul>
+        </div>
+        <div class="article">
+          <h2>Keyboard Mechanical</h2>
+          <p>Keyboard ini menggunakan switch mekanik untuk setiap tombol, memberikan pengalaman mengetik yang lebih responsif dan memuaskan. Banyak gamer dan penulis profesional lebih memilih keyboard mekanik.</p>  
+        </div>
+        <div class="article">
+          <h2>Keyboard Membran</h2>
+          <p>Keyboard ini menggunakan lapisan membran untuk merekam input. Meskipun lebih murah dan lebih ramping, keyboard membran biasanya tidak memberikan umpan balik yang sama dengan keyboard mekanik.</p>
+        </div>
+      </section>
+
+      <aside class="aside">
+        <h1>Gallery</h1>
+        <img src="/foto/GMK Mizu.jpg" alt="Keyboard" title="keyboard model TKL custom keycaps">
+        <img src="/foto/vqoJrKBB.jpg" alt="Gallery Image 2" title="keyboard model TKL">
+        <img src="/foto/keyboard 65.jpg" alt="Gallery Image 3" title="keyboard 75%">
+        <img src="/foto/keyboard 75.jpg" alt="Gallery Image 4" title="keyboard model TKL">
+        <img src="/foto/keyboard.jpg" alt="Gallery Image 5" title="keyboard 100%">
+      </aside>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjglbvXqJKJAxXKK4MDHVFTMlcYABAAGgJzZg&ae=2&co=1&ase=5&gclid=CjwKCAjwpbi4BhByEiwAMC8Jneu74SvHNM57brx37xGHupNyMM3BbBLSpjfZv6N02zeWYXDyJekFBhoCe7IQAvD_BwE&ohost=www.google.com&cid=CAESVuD2hixrVa7iXA7wdG86BUEfpOwYHK5eqccUa9c8Jw1PJ4Ppm5EXAQNJsz8c832orTdhLRnsbXQ9VbyfKyOHATids3RSXj2hDAw5IRl4O8qP0-BlNcPA&sig=AOD64_0c_R6QH-WDAK8Z_vYkkUusxNpJzQ&q&adurl&ved=2ahUKEwi65rbXqJKJAxW9R2wGHatTDikQ0Qx6BAgTEAE" title="Platform Amazon keyboards">Amazon</a>
+        <a href="https://www.logitech.com/id-id/products/keyboards.html?srsltid=AfmBOopo4VYq6-wv5H9Z6c9qsUYGPnXkHKRlmGUTisSdz6rlS7MbrIXQ" title="Rekomendasi Keyboard Logitect">Keyboard</a>
+      </div>
+      
+      <div class="footer-copyright">
+        Copyright &copy; 2024 Amelia Fitri Sibarani. All Rights Reserved
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
